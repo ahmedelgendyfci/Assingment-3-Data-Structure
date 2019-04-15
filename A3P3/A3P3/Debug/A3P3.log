@@ -1,0 +1,20 @@
+﻿Build started 4/15/2019 5:19:24 AM.
+     1>Project "c:\Users\ahmedelgendy\documents\visual studio 2013\Projects\A3P3\A3P3\A3P3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(82): error C2365: 'stack<type>::top' : redefinition; previous definition was 'data member'
+                 c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(15) : see declaration of 'stack<type>::top'
+                 c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(105) : see reference to class template instantiation 'stack<type>' being compiled
+     1>c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(82): error C2207: 'stack<type>::top' : a member of a class template cannot acquire a function type
+                 c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(109) : see reference to class template instantiation 'stack<int>' being compiled
+     1>c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(82): error C2365: 'stack<int>::top' : redefinition; previous definition was 'data member'
+                 c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(15) : see declaration of 'stack<int>::top'
+     1>c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(118): error C2064: term does not evaluate to a function taking 0 arguments
+     1>c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(123): error C2064: term does not evaluate to a function taking 0 arguments
+     1>c:\users\ahmedelgendy\documents\visual studio 2013\projects\a3p3\a3p3\source.cpp(129): error C2064: term does not evaluate to a function taking 0 arguments
+     1>Done Building Project "c:\Users\ahmedelgendy\documents\visual studio 2013\Projects\A3P3\A3P3\A3P3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.90
